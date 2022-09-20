@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Tugas 6</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> 
+</head>
+<body>
+  <BR></BR>
+  
+         <img src="data:image/png;base64,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" alt="" > 
+      </div>
+     
+        <h3 align="center">TABLE INTENSITAS GEMPA BUMI NEGARA REPUBLIK INDONESIA</h3>
+
+  <table align="center" class="table table-dark table-striped mt-5">
+    <thead>
+        <tr>
+        <th scope="col">NO</th>
+        <th scope="col">LOKASI</th>
+        <th scope="col">SKALA</th>
+        <th scope="col">DAMPAK</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+</body>
+</html>
+
+  <script>
+    //membuat class
+    let no = 1;
+    class Gempa {
+      constructor(lokasi, skala, dampakgempa) {
+        this.lokasi = lokasi;
+        this.skala = skala;
+        this.dampakGempa = dampakgempa;
+      }
+  
+      //member fungsi dampak
+    getdampak(){
+      if(this.skala <= 2) this.dampakGempa = ' tidak terasa';
+          else if(this.skala > 2 && this.skala <= 4 ) this.dampakGempa = 'bangunan retak-retak';
+          else if(this.skala > 4 && this.skala <= 6 ) this.dampakGempa = 'bangunan roboh';
+          else if(this.skala >= 6) this.dampakGempa= 'bangunan roboh dan berpotensi tsunami';
+          else dampakGempa = '';
+  
+          return this.dampakGempa;
+    }
+   
+      infoGempa(){
+       document.write ( `<tr>
+                        <td scope="row">${no++}</td>
+                        <td>${this.lokasi}</td>
+                        <td>${this.skala}</td>
+                        <td>${this.getdampak()}</td>
+                    </tr>`);
+        // document.write(`<br/>lokasi:${this.lokasi}
+        // <br/>skala:${this.skala}
+        // <br/>dampak:${this.getdampak()}`);
+       
+      }
+    }
+   
+      //membuat object
+      //instance object
+      g1 = new Gempa ('Aceh', 5);
+      g2 = new Gempa ('Tangerang', 4);
+      g3 = new Gempa ('Bandar Lampung', 6);
+      g4 = new Gempa ('Bengkulu', 5.5);
+      g5 = new Gempa ('Jakarta Pusat', 2.5);
+      g6 = new Gempa ('Jawa Timur', 4);
+      g7 = new Gempa ('Jawa Tengah', 3.5);
+      g8 = new Gempa ('Ciamis', 5.7);
+      g9 = new Gempa ('Yogya', 2);
+      g10 = new Gempa ('Sumatra', 4);
+      
+  
+      g1.infoGempa();   
+      g2.infoGempa(); 
+      g3.infoGempa();  
+      g4.infoGempa();   
+      g5.infoGempa();  
+      g6.infoGempa();   
+      g7.infoGempa();   
+      g8.infoGempa();   
+      g9.infoGempa();   
+      g10.infoGempa(); 
+    </script>
+</table>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+
+
+  
