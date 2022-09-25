@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 50px;
+}
+
+img {
+  padding: 10px;
+  height: 200px;
+}
+
+button {
+  margin: auto;
+}

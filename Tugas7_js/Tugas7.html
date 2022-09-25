@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Tugas7.css" />
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+  </head>
+
+  <body>
+    <h3 align="center">Mengenal Hewan dan Suaranya</h3>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Hewan Unggas</button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="card-group bg-primary">
+             
+              <div class="card" id="card_ayam">
+                <img src="image/ayam..jpg" class="card-img-top" alt="" onclick="fungsi('ayam')">
+                <div class="card-body">
+                  <div id="musik_ayam" class="musik"> </div>
+                  <button class="btn" id="btn_aym">Stop</button>
+                </div>
+
+              </div>
+
+              <div class="card" id="card_bebek">
+                <img src="image/bebek.jpg " class="card-img-top" alt="" onclick="fungsi('bebek')">
+                <div class="card-body">
+                  <div id="musik_bebek" class="musik"> </div>
+                 <button class="btn" id="btn_bebek">Stop</button>
+                </div>
+              </div>
+             
+              <div class="card" id="card_burung">
+                <img src="image/brg.jpg " class="card-img-top" alt="" onclick="fungsi('burung')">
+                <div class="card-body">
+                  <div id="musik_burung" class="musik"> </div>
+                 <button class="btn" id="btn_burung">Stop</button>
+                </div>
+              </div>
+
+              <div class="card" id="card_angsa">
+                <img src="image/angsa.jpg " class="card-img-top" alt="" onclick="fungsi('angsa')">
+                <div class="card-body">
+                  <div id="musik_angsa" class="musik"> </div>
+                 <button class="btn" id="btn_angsa">Stop</button>
+                </div>
+              </div>
+
+              <div class="card" id="card_kalkun">
+                <img src="image/kalkun.jpg " class="card-img-top" alt="" onclick="fungsi('kalkun')">
+                <div class="card-body">
+                  <div id="musik_kalkun" class="musik"> </div>
+                 <button class="btn" id="btn_kalkun">Stop</button>
+                </div>
+              </div>
+              </div>
+            </div>
+            
+            <div>
+
+            </div>
+            <section id="info_unggas">
+              <div class="container ">
+                <button type="button" class="btn btn-info m-auto btn1" onclick="fungsi()">Apa itu unggas</button>
+                 <button type="button" class="btn btn-warning m-auto btn2">aku sudah tau</button>
+            <p>Unggas (bahasa Inggris: poultry) adalah jenis hewan ternak kelompok burung yang dimanfaatkan untuk daging dan telur atau bulunya. Umumnya merupakan bagian dari ordo Galliformes (seperti ayam dan kalkun), dan Anseriformes (seperti bebek).</p>   
+          </div> 
+            </section>
+          </div>
+          
+          
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Hewan Buas</button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="card-group bg-primary">
+
+              <div class="card" id="card_macan">
+                <img src="image/mcn.jpg " class="card-img-top" alt="" onclick="fungsi('macan')">
+                <div class="card-body">
+                  <div id="musik_macan" class="musik"> </div>
+                 <button class="btn" id="btn_mcn">Stop</button>
+                </div>
+              </div>
+
+              <div class="card" id="card_macan">
+                <img src="image/serigala.jpg" class="card-img-top" alt="" onclick="fungsi('serigala')">
+                <div class="card-body">
+                  <div id="musik_serigala" class="musik"> </div>
+                 <button class="btn" id="btn_serigala">Stop</button>
+                </div>
+              </div>
+
+              <div class="card" id="card_macan">
+                <img src="image/singa.jpg" class="card-img-top" alt="" onclick="fungsi('singa')">
+                <div class="card-body">
+                  <div id="musik_singa" class="musik"> </div>
+                 <button class="btn" id="btn_singa">Stop</button>
+                </div>
+              </div>
+
+
+              <div class="card" id="card_anjing">
+                <img src="image/anjing.jpg" class="card-img-top" alt="" onclick="fungsi('anjing')">
+                <div class="card-body">
+                  <div id="musik_anjing" class="musik"> </div>
+                 <button class="btn" id="btn_anjing">Stop</button>
+                </div>
+              </div>
+
+              <div class="card" id="card_gorila">
+                <img src="image/gorila.jpg" class="card-img-top" alt="" onclick="fungsi('gorila')">
+                <div class="card-body">
+                  <div id="musik_gorila" class="musik"> </div>
+                 <button class="btn" id="btn_gorila">Stop</button>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <section id="info_unggas">
+            <div class="container ">
+              <button type="button" class="btn btn-info m-auto btn1" onclick="fungsi()">Apa itu Buas</button>
+               <button type="button" class="btn btn-warning m-auto btn2">aku sudah tau</button>
+          <p>hewan buas sendiri merupakan binatang liar dan biasanya memusuhi manusia. Artinya, mereka merupakan hewan yang berbahaya bagi manusia karena bisa menyerang manusia.</p>   
+        </div> 
+          </section>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Hewan Ternak
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="card-group bg-primary">
+              <div class="card" id="card_sapi">
+                <img src="image/sapi.jpg" class="card-img-top" alt="" onclick="fungsi('sapi')">
+                <div class="card-body">
+                  <div id="musik_sapi" class="musik"> </div>
+                 <button class="btn" id="btn_sapi">Stop</button>
+                </div>
+              </div>
+
+              
+              <div class="card" id="card_kambing">
+                <img src="image/kambing.jpg" class="card-img-top" alt="" onclick="fungsi('kambing')">
+                <div class="card-body">
+                  <div id="musik_kambing" class="musik"> </div>
+                 <button class="btn" id="btn_kambing">Stop</button>
+                </div>
+              </div>
+
+              
+              <div class="card" id="card_lebah">
+                <img src="image/lebah.jpg" class="card-img-top" alt="" onclick="fungsi('lebah')">
+                <div class="card-body">
+                  <div id="musik_lebah" class="musik"> </div>
+                 <button class="btn" id="btn_lebah">Stop</button>
+                </div>
+              </div>
+
+              
+              <div class="card" id="card_kuda">
+                <img src="image/kuda.jpg" class="card-img-top" alt="" onclick="fungsi('kuda')">
+                <div class="card-body">
+                  <div id="musik_kuda" class="musik"> </div>
+                 <button class="btn" id="btn_kuda">Stop</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section id="info_unggas">
+            <div class="container ">
+              <button type="button" class="btn btn-info m-auto btn1" onclick="fungsi()">Apa itu Ternak</button>
+               <button type="button" class="btn btn-warning m-auto btn2">aku sudah tau</button>
+          <p>ialah hewan-piara, yang kehidupannya yakni mengenai tempat, perkembanganbiakannya serta manfaatnya diatur dan diawasi oleh manusia serta dipelihara khusus sebagai penghasil bahan-bahan dan jasa-jasa yang berguna bagi kepentingan hidup manusia</p>   
+        </div> 
+          </section>
+        </div>
+        </div>
+      
+      
+      
+    </div>
+
+    <script src="Tugas7.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
